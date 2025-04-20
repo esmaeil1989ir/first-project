@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>Google</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+    
+    <form action="https://www.google.com/search" method="get" class="search-form">
+      <input type="text" name="q" class="search-input" placeholder="جستجو در گوگل">
+      <div class="buttons">
+        <input type="submit" value="جستجوی Google" class="btn">
+        <input type="submit" value="بخت با من یار است" name="btnI" class="btn">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
