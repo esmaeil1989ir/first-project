@@ -1,3 +1,44 @@
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu1 {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+*, nav {
+    padding: 6px;
+    text-decoration: none;
+}
+
+#menu1 ul {
+    display: inline;
+    padding: 10px;
+}
+
+#menu2 ul {
+    display: inline;
+}
+
+#menu1 ul li {
+    display: inline;
+}
+
+#menu2 ul li {
+    display: inline;
+}
 body {
   margin: 0;
   padding: 0;
